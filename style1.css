@@ -1,0 +1,105 @@
+header{
+  background-color: #F0FFFF;
+}
+#header_container{
+  width: 100%;
+  height: 250px;
+  margin: left;
+  background-color: #1ABC9C;
+   background: url('images/cover3.jpg') no-repeat;
+   background-size: cover;
+
+}
+#nav_container{
+
+  margin-top: 90px;
+  float: right;
+font-style: oblique;
+}
+#nav_container li{
+  display: inline;
+  color: black;
+}
+#nav_container ul a{
+    font-size: 30px;
+    color:white;
+    margin:bottom;
+    padding-left: 25px;
+    font-style: normal;
+    text-decoration: none;
+}
+#nav_container ul a:hover{
+    text-decoration: none;
+    margin-bottom: auto;
+}
+#cover_title{
+    position: absolute;
+bottom: 0;
+width: 90%;
+margin: 0 5%;
+text-align: center;
+}
+#cover_title h1{
+    color: white;
+    letter-spacing: 1px;
+    font-family: 'Neue Haas Unica W01';
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+}
+.trending{
+  height: 90px;
+  background-color: #F5F5F5;
+  margin-top: 30px;
+}
+
+#footer_container{
+  margin-top: 80px;
+  background-color: #00001a;
+}
+#lolo li{
+    background-color: white;
+    color: red;
+    display: inline;
+    font-size: 30px;
+    padding-right: 30px;
+    float: right;
+
+}
+
+#contactUs{
+  text-align: center;
+  padding-top: 10px;
+}
+#contactUs a{
+  color: white;
+  text-decoration: none;
+}
+#followUs{
+  color: white;
+}
+#copyright{
+  color: white;
+}
+#privacy{
+  color: white;
+}
+
+ul.footer_icons{
+ text-align:  center;
+ padding-bottom: 10px;
+
+}
+.image{
+    position: relative;
+   width: 100%;
+}
+h2 {
+   position: absolute;
+   top: 200px;
+   left: 0;
+   width: 100%;
+}
+ul.footer_icons li{
+  display: inline;
+}
